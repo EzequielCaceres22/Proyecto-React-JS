@@ -8,35 +8,7 @@
     margin: auto;
 }
 
-.bannerimg{
-    width: 100%;
-}
-
-.container-fluid{
-    margin: 0;
-    padding: 0;
-}
-
-ul{
-    height: 50px;
-    margin-top: 16px;
-    padding-top: 6px;
-}
-
-.nav{
-    background-color: #72bed9;
-}
-
-.nav-link:hover{
-    color: whitesmoke !important;
-}
-
-.btn-carrito{
-    display: flex;
-    position: relative;
-    left: 720px;
-    bottom: -6px;
-    height: 34px;
+.btn-nav{
 }
 
 .carousel-inner{
@@ -47,18 +19,4 @@ ul{
 .carousel-item{
     position: relative;
     top: 17px;
-}
-
-.alert{
-    margin-top: 100px;
-}
-
-.carousel-control-prev-icon{
-    position: relative;
-    right: 120px;
-}
-
-.carousel-control-next-icon{
-    position: relative;
-    left: 120px;
 }

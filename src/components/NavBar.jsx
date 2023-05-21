@@ -1,25 +1,26 @@
 import React from "react";
-import CartWindget from "./CartWidget";
+import CartWindget from "./CartWidget"
 
 const NavBar = () => {
 	return (
-		<div className="container-fluid">
-		<ul className="nav justify-content-center">
-			<li className="nav-item">
-				<a className="nav-link active text-dark" aria-current="page" href="#">Hombre</a>
-			</li>
-			<li className="nav-item">
-				<a className="nav-link text-dark" href="#">Mujeres</a>
-			</li>
-			<li className="nav-item">
-				<a className="nav-link text-dark" href="#">Niños</a>
-			</li>
-			<li clasNames="nav-item">
-				<a className="nav-link text-dark">% OFERTAS</a>
-			</li>
-			<CartWindget/>
-		</ul>
-		
+		<div className="container">
+			<div className="row">
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#">Hombres</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Mujeres</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Niños</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Accesorios</a>
+					</li>
+					<CartWindget/>
+				</ul>
+			</div>
 		</div>
 	);
 };

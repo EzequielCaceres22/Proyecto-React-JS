@@ -1,0 +1,271 @@
+[
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria":"Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 2,
+        "titulo": "Campera Puma Avenir FZ Hoodie - Black",
+        "marca": "https://f.fcdn.app/imgs/3d201d/www.zooko.com.uy/zoo/3be3/webp/marcas/puma/100x70/puma",
+        "imagen": "https://f.fcdn.app/imgs/2b3a74/www.zooko.com.uy/zoo/840d/webp/catalogo/PM531445-01-1/460x460/campera-puma-avenir-fz-hoodie-black.jpg",
+        "precio": "$3690",
+        "categoria": "Hombre",
+        "stock": "17"
+    },
+
+    {
+        "idx": 3,
+        "titulo": "CANGURO JORDAN BROOKLYN FLEECE - Black",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/4a1da2/www.zooko.com.uy/zoo/1c74/webp/catalogo/NKDQ7466-010-1/460x460/canguro-jordan-brooklyn-fleece-black.jpg",
+        "precio": "$3990",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 4,
+        "titulo": "CANGURO adidas ESSENTIALS - BLACK",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/3cddde/www.zooko.com.uy/zoo/e167/webp/catalogo/ADHR8618-1032-1/460x460/canguro-adidas-essentials-black.jpg",
+        "precio": "$5290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 5,
+        "titulo": "REMERA adidas ADICOLOR CLASSICS TREFOIL TEE - DARK GREEN",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/7c0e42/www.zooko.com.uy/zoo/7a44/webp/catalogo/ADIA4819-2719-1/460x460/remera-adidas-adicolor-classics-trefoil-tee-dark-green.jpg",
+        "precio": "$2390",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 6,
+        "titulo": "Remera Avenir Crinkle Tee - 02",
+        "marca": "https://f.fcdn.app/imgs/3d201d/www.zooko.com.uy/zoo/3be3/webp/marcas/puma/100x70/puma",
+        "imagen": "https://f.fcdn.app/imgs/acb7df/www.zooko.com.uy/zoo/e00a/webp/catalogo/PM597330-02-1/460x460/remera-avenir-crinkle-tee-02.jpg",
+        "precio": "$1590",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 7,
+        "titulo": "AIR JORDAN 1 ZOOM CMFT 2 - Gray",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/b391d9/www.zooko.com.uy/zoo/8bb7/webp/catalogo/NKDV1307-060-1/460x460/air-jordan-1-zoom-cmft-2-gray.jpg",
+        "precio": "$9990",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 8,
+        "titulo": "NEW BALANCE MR530 - CC",
+        "marca": "https://f.fcdn.app/imgs/74ce14/www.zooko.com.uy/zoo/364b/webp/marcas/new-balance/100x70/new-balance",
+        "imagen": "https://f.fcdn.app/imgs/bda3f2/www.zooko.com.uy/zoo/9ccd/webp/catalogo/NBMR530CC-2458-1/460x460/new-balance-mr530-cc.jpg",
+        "precio": "$5890",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 9,
+        "titulo": "VANS AUTHENTIC VN000EE3BLK - BLACK",
+        "marca": "https://f.fcdn.app/imgs/cda922/www.zooko.com.uy/zoo/aaa6/webp/marcas/vans/100x70/vans",
+        "imagen": "https://f.fcdn.app/imgs/aaa64a/www.zooko.com.uy/zoo/0b13/webp/catalogo/78003-1032-1/460x460/vans-authentic-vn000ee3blk-black.jpg",
+        "precio": "$3290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo":"REMERA JORDAN AIR - Pink",
+        "marca":"https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen":"https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio":"$2290",
+        "categoria":"Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Pink",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    }
+]

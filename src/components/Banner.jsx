@@ -5,10 +5,9 @@ const Banner = () => {
 
   return (
     <div>
-      <img src={img1} alt={"banner"} className="bannerimg"/>
       <div>
         <div id="carouselExampleAutoplaying" className="carousel slide text-center" data-bs-ride="carousel" >
-          <div className="carousel-inner">
+          <div className="carousel-inner bg-light">
             <div className="carousel-item active">
               <b>3 cuotas sin interés</b><br/>
                <a href="#">Ver opciones de pago</a> 

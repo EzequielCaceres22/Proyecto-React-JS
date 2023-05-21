@@ -1,5 +1,5 @@
 import React from "react";
-import imglogo from "../images/logo.png"
+import imglogo from "../images/logoZooko.svg"
 
 
 const Header = () => {
@@ -11,4 +11,4 @@ const Header = () => {
     )
 }
 
-export default Header;{}
+export default Header;

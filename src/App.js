@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './components/Banner';
 import Header from "./components/Header";
+import ItemCount from './components/ItemCount';
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from "./components/NavBar";
 
@@ -12,7 +13,8 @@ function App() {
         <Header/>
         <NavBar/>
         <Banner/>
-        <ItemListContainer greeting={"No se encontraron Productos!"}/>
+        <ItemListContainer/>
+        <ItemCount stock={20}/>
     </p>
   );
 }
