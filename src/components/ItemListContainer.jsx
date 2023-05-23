@@ -5,20 +5,20 @@ import ItemList from "./ItemList"
 
 const ItemListContainer = () => {
 
-    const [items,setItems] = useState([]);
+    const [items, setItems] = useState([]);
 
-    useEffect(() =>{
+    useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
                 resolve(productos)
-            },2000);
-        })
+            }, 2000);
+        });
 
         promesa.then(datos => {
             setItems(datos);
         })
-    },[]);
-
+        },[]);
+    
     return (
         <div className="container my-5">
             <div className="row">

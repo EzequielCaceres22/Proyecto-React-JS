@@ -1,4 +1,4 @@
-import img1 from "../images/pumapoke.jpg"
+
 
 
 const Banner = () => {
@@ -7,13 +7,13 @@ const Banner = () => {
     <div>
       <div>
         <div id="carouselExampleAutoplaying" className="carousel slide text-center" data-bs-ride="carousel" >
-          <div className="carousel-inner bg-light">
-            <div className="carousel-item active">
+          <div className="carousel-inner carr-hei bg-light">
+            <div className="carousel-item carr-itm active">
               <b>3 cuotas sin interés</b><br/>
                <a href="#">Ver opciones de pago</a> 
             </div>
-            <div className="carousel-item">
-              <b>Entregas a todo el país.</b><br />
+            <div className="carousel-item my-3">
+              <b>Entregas a todo el país.</b><br/>
               <a href="#">Ver información de envíos y entregas</a>
             </div>
           </div>

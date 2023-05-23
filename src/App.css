@@ -3,20 +3,141 @@
     padding: 0%;
 }
 
+.div-top{
+    background-color: rgb(87,35,84);
+}
+
+.global-ico{
+    width: 80px;
+    margin-left: 10px;
+}
+
+.span-style{
+    font-size: 9px;
+    color: white;
+    margin-left: 30px;
+}
+
 .Header{
     display:block;
     margin: auto;
 }
 
-.btn-nav{
-}
-
-.carousel-inner{
+.carr-hei{
     background-color: #72bed9;
     height: 80px;
 }
 
-.carousel-item{
+.carr-itm{
     position: relative;
     top: 17px;
+}
+
+.nav-link{
+    color:rgb(87,35,84);
+}
+
+.brand{
+    position: relative;
+    left: -10px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+.card > img {
+    width: auto;
+    height: auto;
+}
+
+.card:hover{
+    transition: all 1s;
+    scale: 1.03;
+}
+
+.card-body{
+    background-color: rgba(211, 211, 211, 0.445);
+    border-radius: 10px;
+}
+
+.tit-item{
+    height:10px;
+    margin-bottom: 10px;
+}
+
+.itm-c{
+    display: none;
+}
+
+.ul-stl{
+    border:none;
+    width: 50px;
+    height: 50px;
+    background-color: #572354;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.btn-ico{
+    width: 30px;
+}
+
+.footer{
+    background-color:rgb(34,34,34);
+}
+
+.btn-div{
+text-align: center;
+}
+
+.info-cls{
+    color: white;
+}
+
+.link-color{
+    color: rgb(153,153,153);
+    font-size: 14px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.div-info{
+    margin-top: 30px;
+}
+
+.paymethod{
+    text-align: center;
+}
+
+.img-style{
+    max-width: 40px;
+    margin: 7px;
+    height: 13px;
+    
+}
+
+input{
+    outline: none;
+}
+
+.btn-sub{
+    background-color:rgb(87,35,84) ;
+    color: white;
+    border: none;
+    height: 28px;
+    margin-left: 3px;
+}
+
+.div-header-bg{
+    background-color: rgb(227,226,228);
+    margin-top: 30px;
+    height: 40px;
+}
+
+.bannerfot{
+    width: 100%;
 }
