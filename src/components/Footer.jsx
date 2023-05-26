@@ -29,29 +29,29 @@ const Footer = () => {
                     <div class="col info-cls">
                         <ul>
                             <h5>Zooko Store</h5>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/nosotros">Nosotros</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/contacto">Contacto</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/tiendas">Tiendas</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/trabaja-con-nosotros">Trabaja en Zooko</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/nosotros" target='blank'>Nosotros</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/contacto" target='blank'>Contacto</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/tiendas" target='blank'>Tiendas</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/trabaja-con-nosotros" target='blank'>Trabaja en Zooko</a></li>
                         </ul>
                     </div>
                     <div class="col info-cls">
                         <ul>
                             <h5>Más Info</h5>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/cambios">Como Realizar Cambios</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/terminos-y-condiciones">Términos y Condiciones</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/como-comprar">Como Comprar</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/envios-y-devoluciones">Envios y devoluciones</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/preguntas-frecuentes">Preguntas Frecuentes</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/cambios" target='blank'>Como Realizar Cambios</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/terminos-y-condiciones" target='blank'>Términos y Condiciones</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/como-comprar" target='blank'>Como Comprar</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/envios-y-devoluciones" target='blank'>Envios y devoluciones</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/preguntas-frecuentes" target='blank'>Preguntas Frecuentes</a></li>
                         </ul>
                     </div>
                     <div class="col info-cls">
                         <ul>
                             <h5>Cuenta</h5>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/ingresar">Mi cuenta</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/ingresar">Mis compras</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/ingresar">Mis direcciones</a></li>
-                            <li><a className="link-color" href="https://www.zooko.com.uy/ingresar">Wish List</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/ingresar" target='blank'>Mi cuenta</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/ingresar" target='blank'>Mis compras</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/ingresar" target='blank'>Mis direcciones</a></li>
+                            <li><a className="link-color" href="https://www.zooko.com.uy/ingresar" target='blank'>Wish List</a></li>
                         </ul>
                     </div>
                     <div class="col info-cls">

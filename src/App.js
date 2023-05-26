@@ -1,11 +1,11 @@
 import './App.css';
 import Banner from './components/Banner';
 import Header from "./components/Header";
-import ItemCount from './components/ItemCount';
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from "./components/NavBar";
 import Carrousel from './components/Carrousel';
 import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
         <Carrousel/>
         <Banner/>
         <ItemListContainer/>
-        <ItemCount stock={20}/>
         <Footer/>
     </div>
   );
