@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -10,11 +10,11 @@ const Banner = () => {
           <div className="carousel-inner carr-hei bg-light">
             <div className="carousel-item carr-itm active">
               <b>3 cuotas sin interés</b><br/>
-               <a href="#">Ver opciones de pago</a> 
+              <Link to={"https://www.nike.com.ar/help/nota/metodos-de-pago"}>Ver opciones de pago</Link> 
             </div>
             <div className="carousel-item my-3">
               <b>Entregas a todo el país.</b><br/>
-              <a href="#">Ver información de envíos y entregas</a>
+              <Link to={"https://www.nike.com.ar/help/nota/envio-entrega"}>Ver información de envíos y entregas</Link>
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

@@ -22,25 +22,25 @@ import img6 from "../images/footerPagos/img6.jpg"
 const PayMethods = () => {
     return (
     <div className="paymethod">
-        <img className="img-style" src={visa} alt="" />
-        <img className="img-style" src={oca} alt="" />
-        <img className="img-style" src={master} alt="" />
-        <img className="img-style" src={diners} alt="" />
-        <img className="img-style" src={lider} alt="" />
-        <img className="img-style" src={abitab} alt="" />
-        <img className="img-style" src={redpagos} alt="" />
-        <img className="img-style" src={mercadopago} alt="" />
-        <img className="img-style" src={bbvanet} alt="" />
-        <img className="img-style" src={ebrou} alt="" />
-        <img className="img-style" src={supernet} alt="" />
-        <img className="img-style" src={bandes} alt="" />
-        <img className="img-style" src={scotia} alt="" />
-        <img className="img-style" src={img1} alt="" />
-        <img className="img-style" src={img2} alt="" />
-        <img className="img-style" src={img3} alt="" />
-        <img className="img-style" src={img4} alt="" />
-        <img className="img-style" src={img5} alt="" />
-        <img className="img-style" src={img6} alt="" />
+        <img className="img-style" src={visa} alt="VISA" />
+        <img className="img-style" src={oca} alt="OCA" />
+        <img className="img-style" src={master} alt="MASTER" />
+        <img className="img-style" src={diners} alt="DINERS" />
+        <img className="img-style" src={lider} alt="LIDER" />
+        <img className="img-style" src={abitab} alt="ABITAB" />
+        <img className="img-style" src={redpagos} alt="REDPAGOS" />
+        <img className="img-style" src={mercadopago} alt="MERCADOPAGO" />
+        <img className="img-style" src={bbvanet} alt="BBVANET" />
+        <img className="img-style" src={ebrou} alt="EBROU" />
+        <img className="img-style" src={supernet} alt="SUPERNET" />
+        <img className="img-style" src={bandes} alt="BANDES" />
+        <img className="img-style" src={scotia} alt="SCOTIA" />
+        <img className="img-style" src={img1} alt="IMG1" />
+        <img className="img-style" src={img2} alt="IMG2" />
+        <img className="img-style" src={img3} alt="IMG3" />
+        <img className="img-style" src={img4} alt="IMG4" />
+        <img className="img-style" src={img5} alt="IMG5" />
+        <img className="img-style" src={img6} alt="IMG6" />
     </div>
 )
 }

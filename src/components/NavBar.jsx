@@ -1,5 +1,6 @@
 import React from "react";
 import CartWindget from "./CartWidget"
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
 	return (
@@ -8,16 +9,16 @@ const NavBar = () => {
 				<div className="row">
 					<ul className="nav justify-content-center">
 						<li className="nav-item">
-							<b><a className="nav-link" aria-current="page" href="#">Hombres</a></b>
+							<b><NavLink className="nav-link" aria-current="page" to={"/category/hombres"}>Hombres</NavLink></b>
 						</li>
 						<li className="nav-item">
-							<b><a className="nav-link" href="#">Mujeres</a></b>
+							<b><NavLink className="nav-link" to={"/category/mujeres"}>Mujeres</NavLink></b>
 						</li>
 						<li className="nav-item">
-							<b><a className="nav-link" href="#">Niños</a></b>
+							<b><NavLink className="nav-link" to={"/category/niños"}>Niños</NavLink></b>
 						</li>
 						<li className="nav-item">
-							<b><a className="nav-link" href="#">Accesorios</a></b>
+							<b><NavLink className="nav-link" to={"/category/accesorios"}>Accesorios</NavLink></b>
 						</li>
 						<CartWindget/>
 					</ul>
