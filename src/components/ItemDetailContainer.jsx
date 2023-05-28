@@ -1,14 +1,16 @@
 import { useEffect, useState} from "react";
+import { useParams } from "react-router-dom";
 import productos from "./json/products.json";
 import ItemDetail from "./ItemDetail";
 
 const ItemDetailContainer = () => {
     const [item, setItem] = useState({});
+    const {id} = useParams();
 
     useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
-                let producto = productos.find(item => item.idx === 3);
+                let producto = (productos.find(item => item.idx === parseInt(id)));
                 resolve(producto);
             }, 2000);
         });
@@ -16,7 +18,7 @@ const ItemDetailContainer = () => {
         promesa.then(data => {
             setItem(data);
         });
-    },[]);
+    },[id]);
 
     return (
         <>

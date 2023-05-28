@@ -3,6 +3,8 @@
     padding: 0%;
 }
 
+/* Header Styles*/
+
 .div-top{
     background-color: rgb(87,35,84);
 }
@@ -23,6 +25,8 @@
     margin: auto;
 }
 
+/* Carrousel Banner y NavBar Styles*/
+
 .carr-hei{
     background-color: #72bed9;
     height: 80px;
@@ -33,9 +37,18 @@
     top: 17px;
 }
 
+
 .nav-link{
     color:rgb(87,35,84);
 }
+
+.div-header-bg{
+    background-color: rgb(227,226,228);
+    margin-top: 30px;
+    height: 60px;
+}
+
+/* Card Styles*/
 
 .brand{
     position: relative;
@@ -43,6 +56,7 @@
     height: 46px;
     margin-bottom: 10px;
 }
+
 .card > img {
     width: auto;
     height: auto;
@@ -63,35 +77,29 @@
     margin-bottom: 10px;
 }
 
-.ul-stl{
-    border:none;
-    width: 50px;
-    height: 50px;
-    background-color: #572354;
-    margin: 10px;
-    border-radius: 50%;
+
+/* Card Detail Styles*/
+
+.product-sty{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.btn-ico{
-    width: 30px;
-    filter:invert(1);
+/* Footer Styles*/
+input{
+    outline: none;
 }
 
-.footer{
-    background-color:rgb(34,34,34);
+.bannerfot{
+    width: 100%;
 }
 
-.btn-div{
-text-align: center;
-}
-
-.info-cls{
+.btn-sub{
+    background-color:rgb(87,35,84) ;
     color: white;
-}
-
-.link-color{
-    color: rgb(153,153,153);
-    font-size: 14px;
+    border: none;
+    height: 28px;
+    margin-left: 3px;
 }
 
 li{
@@ -110,31 +118,41 @@ a{
     text-align: center;
 }
 
-.img-style{
-    max-width: 40px;
-    margin: 7px;
-    height: 13px;
+.btn-ico{
+    width: 30px;
+    filter:invert(1);
+}
+
+.footer{
+    background-color:rgb(34,34,34);
+}
+
+.ul-stl{
+    border:none;
+    width: 50px;
+    height: 50px;
+    background-color: #572354;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.btn-div{
+    text-align: center;
+    }
     
-}
-
-input{
-    outline: none;
-}
-
-.btn-sub{
-    background-color:rgb(87,35,84) ;
-    color: white;
-    border: none;
-    height: 28px;
-    margin-left: 3px;
-}
-
-.div-header-bg{
-    background-color: rgb(227,226,228);
-    margin-top: 30px;
-    height: 40px;
-}
-
-.bannerfot{
-    width: 100%;
-}
+    .info-cls{
+        color: white;
+    }
+    
+    .link-color{
+        color: rgb(153,153,153);
+        font-size: 14px;
+    }
+    
+    .img-style{
+        max-width: 40px;
+        margin: 7px;
+        height: 13px;
+        
+    }
+    
