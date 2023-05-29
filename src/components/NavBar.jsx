@@ -7,7 +7,7 @@ const NavBar = () => {
 		<div className="div-header-bg">
 			<div className="container">
 				<div className="row">
-					<ul className="nav justify-content-center">
+					<ul className="nav justify-content-center my-1">
 						<li className="nav-item">
 							<b><NavLink className="nav-link" aria-current="page" to={"/category/hombre"}>Hombres</NavLink></b>
 						</li>

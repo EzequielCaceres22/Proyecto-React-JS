@@ -44,8 +44,8 @@
 
 .div-header-bg{
     background-color: rgb(227,226,228);
-    margin-top: 30px;
-    height: 60px;
+    margin-top: 10px;
+    height: 40px;
 }
 
 /* Card Styles*/
@@ -85,6 +85,19 @@
     margin-bottom: 100px;
 }
 
+.Env-cam{
+    text-align: center;
+    padding: 5px;
+}
+
+.Env-p{
+    font-size: 14px;
+}
+
+.garantia{
+    margin-top: 20px;
+    text-align: center;
+}
 /* Footer Styles*/
 input{
     outline: none;

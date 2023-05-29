@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ItemCount from "./ItemCount";
+import Envios from "./Envios";
 
 const ItemDetail = ({producto}) => {
     const [item, setItem] = useState({});
@@ -16,10 +17,26 @@ const ItemDetail = ({producto}) => {
                 </div>
                 <div className="col-md-5">
                     <h1>{item.titulo}</h1>
-                    <img src={item.marca} alt={item.titulo} />
-                    <p className="price-card"><b>{item.precio}</b></p>
+                    <img src={item.marca} alt={item.titulo}/>
+                    <h5 className="my-2"><b>TALLE</b></h5>
+                    <div>
+                        <input type="radio" className="btn-check" name="options" id="option1"/>
+                        <label className="btn btn-light my-3 mx-1" for="option1">S</label>
+
+                        <input type="radio" className="btn-check" name="options" id="option2"/>
+                        <label className="btn btn-light my-3 mx-1" for="option2">M</label>
+
+                        <input type="radio" className="btn-check" name="options" id="option3"/>
+                        <label className="btn btn-light my-3 mx-1" for="option3">L</label>
+
+                        <input type="radio" className="btn-check" name="options" id="option4"/>
+                        <label className="btn btn-light my-3 mx-1" for="option4">XL</label>
+                    </div>
+                    <h4 className="price-card my-3"><b>{item.precio}</b></h4>
                     <ItemCount stock={item.stock} />
                 </div>
+                <hr className="my-5"/>
+                <Envios/>
             </div>
         </div>
     )
