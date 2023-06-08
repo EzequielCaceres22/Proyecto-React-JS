@@ -12,7 +12,6 @@ import ItemDetailContainer from "./components/ItemDetailContainer"
 function App() {
   return (
     <div>
-    <div>
       <BrowserRouter>
         <Header/>
         <NavBar/>
@@ -26,7 +25,6 @@ function App() {
           </Routes>
         <Footer />
       </BrowserRouter>
-    </div>
     </div>
   );
 }
