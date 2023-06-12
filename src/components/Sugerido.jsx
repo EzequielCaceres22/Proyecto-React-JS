@@ -1,53 +1,48 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import productos from "./json/products.json";
+//import productos from "./json/products.json";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 
 const Slider = () => {
   const [productosSugeridos, setProductosSugeridos] = useState([]);
 
+
   useEffect(() => {
-    const obtenerProductosSugeridos= () => {
-      const productosSugeridos = productosRandom(productos, 5);
-      setProductosSugeridos(productosSugeridos);
+      const db = getFirestore();
+      const itemsCollection = collection(db,"items");
+      getDocs(itemsCollection).then(resultado =>{
+        console.log(resultado)
+      })
+  },[]);
+
+  useEffect(() => {
+    const obtenerProductosRandom = () => {
+      const productosAleatorios = productosRandom(productosSugeridos, 5);
+      setProductosSugeridos(productosAleatorios);
     };
 
-    obtenerProductosSugeridos();
+    obtenerProductosRandom();
   }, []);
 
-  return (
-    <div className="slider">
-      <h4 className="text-center">Sugerencias</h4>
-      <Link to={"/item/" + productos.idx}>
-      <div className="productos-container row row-cols-5 text-dark">
-        {productosSugeridos.map((producto) => (
-          <div key={producto.nombre} className="producto">
-            <img className="img-sug" src={producto.imagen} alt={producto.nombre} />
-            <h3 className="img-tit">{producto.titulo}</h3>
-            <img className="img-brand" src={producto.marca} alt={producto.titulo}/>
-            <p className="sug-price">Precio:{producto.precio}</p>
-          </div>
-        ))}
-      </div>
-    </Link>
-    </div>
-  );
-};
 
-const productosRandom = (productos, cantidad) => {
-  const productosSugeridos = [];
-
-  while (productosSugeridos.length < cantidad) {
-    const randomizer = Math.floor(Math.random() * productos.length);
-    const producto = productos[randomizer];
-
-    if (!productosSugeridos.includes(producto)) {
-      productosSugeridos.push(producto);
+  const productosRandom = (productos, cantidad) => {
+    const productosSugeridos = [];
+  
+    while (productosSugeridos.length < cantidad) {
+      const randomizer = Math.floor(Math.random() * productos.length);
+      const producto = productos[randomizer];
+  
+      if (!productosSugeridos.includes(producto)) {
+        productosSugeridos.push(producto);
+      }
     }
-  }
-
-  return productosSugeridos;
+  
+    return productosSugeridos;
+  };
 };
+
 
 export default Slider;
+

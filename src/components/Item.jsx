@@ -6,7 +6,7 @@ const Item = ({item}) => {
     return (
         <>
             <div className="card border border-0">
-                <Link to={"/item/" + item.idx} className="text-dark">
+                <Link to={"/item/" + item.id} className="text-dark">
                 <img src={item.imagen} className="card-img-top" alt={item.titulo}/>
                 <div className="card-body">
                     <h5 className="tit-item">{item.titulo}</h5>

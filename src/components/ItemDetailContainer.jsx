@@ -8,7 +8,7 @@ const ItemDetailContainer = () => {
     const [item, setItem] = useState({});
     const {id} = useParams();
 
- /*   useEffect(() => {
+    /*   useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
                 let producto = (productos.find(item => item.idx === parseInt(id)));
@@ -20,14 +20,20 @@ const ItemDetailContainer = () => {
             setItem(data);
         });
     },[id]);*/
-
+    
     useEffect(() => {
         const db = getFirestore();
-        const producto = doc(db, "items", id);
-        getDoc(producto).then(resultado => {
-            setItem({id:resultado.id, ...resultado.data()});
-        });
-    }, [id])
+        const getProducto = async () => {
+
+            const queryRef = doc(db, "items", id);
+            const response = await getDoc(queryRef);
+            const newItem = { id: response.id, ...response.data(),};
+            setItem(newItem);
+        };
+        getProducto();
+    
+    }, [id]);
+    
 
     return (
         <>

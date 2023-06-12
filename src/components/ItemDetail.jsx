@@ -5,21 +5,16 @@ import Sugerido from "./Sugerido";
 
 
 const ItemDetail = ({producto}) => {
-    const [item, setItem] = useState({});
-    
-    useEffect(() => {
-        setItem(producto);
-    },[producto]);
 
     return (
         <div className="container">
             <div className="row product-sty">
                 <div className="col-md-6 offset-md-1">
-                    <img src={item.imagen} alt={item.titulo} className="img-fluid" />
+                    <img src={producto.imagen} alt={producto.titulo} className="img-fluid" />
                 </div>
                 <div className="col-md-5">
-                    <h1>{item.titulo}</h1>
-                    <img src={item.marca} alt={item.titulo}/>
+                    <h1>{producto.titulo}</h1>
+                    <img src={producto.marca} alt={producto.titulo}/>
                     <h5 className="my-2"><b>TALLE</b></h5>
                     <div>
                         <input type="radio" className="btn-check" name="options" id="option1"/>
@@ -34,8 +29,8 @@ const ItemDetail = ({producto}) => {
                         <input type="radio" className="btn-check" name="options" id="option4"/>
                         <label className="btn btn-light my-3 mx-1" for="option4">XL</label>
                     </div>
-                    <h4 className="price-card my-3"><b>{item.precio}</b></h4>
-                    <ItemCount stock={item.stock} />
+                    <h4 className="price-card my-3"><b>{producto.precio}</b></h4>
+                    <ItemCount stock={producto.stock} />
                 </div>
                 <hr className="my-5"/>
                 <Sugerido/>
