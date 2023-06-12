@@ -168,4 +168,22 @@ a{
         height: 13px;
         
     }
+
+    .img-sug{
+        width: 70%;
+    }
     
+    .img-tit{
+        font-size: 17px;
+        min-height: 35px;
+    }
+
+    .img-brand{
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+    .sug-price{
+        font-size: 18px;
+        margin-bottom: 100px;
+    }

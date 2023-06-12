@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import ItemCount from "./ItemCount";
 import Envios from "./Envios";
+import Sugerido from "./Sugerido";
+
 
 const ItemDetail = ({producto}) => {
     const [item, setItem] = useState({});
@@ -36,6 +38,7 @@ const ItemDetail = ({producto}) => {
                     <ItemCount stock={item.stock} />
                 </div>
                 <hr className="my-5"/>
+                <Sugerido/>
                 <Envios/>
             </div>
         </div>
