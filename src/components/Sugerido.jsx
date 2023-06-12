@@ -1,22 +1,36 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import productos from "./json/products.json";
 
+
 const Slider = () => {
-const productosSugeridos = productosRandom(productos, 5);
+  const [productosSugeridos, setProductosSugeridos] = useState([]);
+
+  useEffect(() => {
+    const obtenerProductosSugeridos= () => {
+      const productosSugeridos = productosRandom(productos, 5);
+      setProductosSugeridos(productosSugeridos);
+    };
+
+    obtenerProductosSugeridos();
+  }, []);
 
   return (
     <div className="slider">
-      <h2 className="text-center">Productos Sugeridos</h2>
-      <div className="productos-container row row-cols-5">
+      <h4 className="text-center">Sugerencias</h4>
+      <Link to={"/item/" + productos.idx}>
+      <div className="productos-container row row-cols-5 text-dark">
         {productosSugeridos.map((producto) => (
-          <div key={producto.idx} className="producto">
+          <div key={producto.nombre} className="producto">
             <img className="img-sug" src={producto.imagen} alt={producto.nombre} />
             <h3 className="img-tit">{producto.titulo}</h3>
             <img className="img-brand" src={producto.marca} alt={producto.titulo}/>
-            <h4 className="sug-price"><b>{producto.precio}</b></h4>
+            <p className="sug-price">Precio:{producto.precio}</p>
           </div>
         ))}
       </div>
+    </Link>
     </div>
   );
 };
