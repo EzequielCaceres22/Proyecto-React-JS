@@ -1,10 +1,21 @@
-import { useEffect, useState } from "react";
 import ItemCount from "./ItemCount";
 import Envios from "./Envios";
-import Sugerido from "./Sugerido";
+//import Sugerido from "./Sugerido";
+import { CartContext } from "./context/CartContext";
+import { useContext, useEffect, useState } from "react";
 
 
 const ItemDetail = ({producto}) => {
+    const {addItem} = useContext(CartContext);
+    const [item, setItem] = useState ({})
+
+    const onAdd = (quantity) => {
+        addItem(item, quantity);
+    }
+
+    useEffect(() => {
+        setItem(producto);
+    },[producto]);
 
     return (
         <div className="container">
@@ -30,10 +41,9 @@ const ItemDetail = ({producto}) => {
                         <label className="btn btn-light my-3 mx-1" for="option4">XL</label>
                     </div>
                     <h4 className="price-card my-3"><b>{producto.precio}</b></h4>
-                    <ItemCount stock={producto.stock} />
+                    <ItemCount stock={producto.stock} onAdd={onAdd} />
                 </div>
                 <hr className="my-5"/>
-                <Sugerido/>
                 <Envios/>
             </div>
         </div>

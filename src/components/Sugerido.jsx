@@ -1,12 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
-//import productos from "./json/products.json";
+/*import { useEffect } from "react";
+import productos from "./json/products.json";
 import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 
 const Slider = () => {
-  const [productosSugeridos, setProductosSugeridos] = useState([]);
 
 
   useEffect(() => {
@@ -16,15 +13,6 @@ const Slider = () => {
         console.log(resultado)
       })
   },[]);
-
-  useEffect(() => {
-    const obtenerProductosRandom = () => {
-      const productosAleatorios = productosRandom(productosSugeridos, 5);
-      setProductosSugeridos(productosAleatorios);
-    };
-
-    obtenerProductosRandom();
-  }, []);
 
 
   const productosRandom = (productos, cantidad) => {
@@ -44,5 +32,6 @@ const Slider = () => {
 };
 
 
-export default Slider;
+export default Slider;*/
+
 

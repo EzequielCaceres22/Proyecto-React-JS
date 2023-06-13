@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 
-const ItemCount = ({stock}) =>{
+const ItemCount = ({stock, onAdd}) =>{
 
     const [items, setItems] = useState (1);
     const [productoStock, setProductoStock] = useState (stock)
@@ -27,6 +27,7 @@ const ItemCount = ({stock}) =>{
             setProductoStock(productoStock - items);
             setItems(1);
             setItemAgregado(true);
+            onAdd(items);
         }
     }
 
