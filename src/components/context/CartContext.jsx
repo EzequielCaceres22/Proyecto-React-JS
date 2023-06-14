@@ -14,7 +14,7 @@ const CartContextProvider = ({children}) => {
             cart[pos].quantity += quantity;
             setCart([...cart]);
         } else{
-            setCart([...cart, {...item,quantity:quantity}])
+            setCart([...cart, {...item,cantidad:quantity}])
         }
     };
 
@@ -32,10 +32,11 @@ const CartContextProvider = ({children}) => {
         return cart.some(producto => producto.id === id)
     };
 
-
-    <CartContext.Provider value={{addItem, removeItem, clear}}>
+    return(
+    <CartContext.Provider value={{cart, addItem, removeItem, clear}}>
         {children}
     </CartContext.Provider>
+    )
 }
 
 export default CartContextProvider;

@@ -37,10 +37,11 @@ const Envios = () => {
         CYBERFEST, CYBERLUNES, BLACKFRIDAY, entre otros, las entregas pueden
         sufrir posibles retrasos por la cantidad de envíos procesados. Por lo
         que en estos eventos los despachos se realizan de 5 a 10 días hábiles
-        (lunes a viernes).<br/>
+        (lunes a viernes).<br/></p>
 
         <h3 className="Env-cam">Stock y Características: En nuestro sitio</h3>
 
+        <p className="Env-p">
         zooko.com.uy trabajamos continuamente para ser lo más claros y precisos
         posible respecto a las características marcadas de nuestros productos de
         existir un error si el cliente se encuentra insatisfecho porque el
@@ -59,10 +60,11 @@ const Envios = () => {
         accesorios adicionales que pudieren corresponder. Presentar la factura
         y/o ticket de cambio en cualquiera de nuestras sucursales, de ser con
         envío al interior contactarnos vía telefónica / whatsapp 091833348
-        durante días hábiles mencionados en nuestras políticas de compra.<br/>
+        durante días hábiles mencionados en nuestras políticas de compra.<br/></p>
 
         <h5 className="garantia">Garantía del producto</h5>
 
+        <p>
         Somos un comercio multimarca por lo que la
         garantía del producto dependerá de la política específica de la marca.
         Presentando la factura o ticket de cambio Zooko se hará responsable de

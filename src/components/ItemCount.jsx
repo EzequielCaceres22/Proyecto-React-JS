@@ -28,6 +28,7 @@ const ItemCount = ({stock, onAdd}) =>{
             setItems(1);
             setItemAgregado(true);
             onAdd(items);
+            console.log("Seleccionaste: " + items + " productos al carrito!\n Te quedan: " + productoStock +" productos")
         }
     }
 
